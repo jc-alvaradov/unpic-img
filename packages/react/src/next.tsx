@@ -4,7 +4,7 @@ import { Image as UnpicImage } from "./index";
 import { getImageCdnForUrl } from "unpic";
 import type { ImageConfigComplete } from "next/dist/shared/lib/image-config.js";
 import { imageConfigDefault } from "next/dist/shared/lib/image-config.js";
-import { ImageConfigContext } from "next/dist/shared/lib/image-config-context.js";
+import { ImageConfigContext } from "next/dist/shared/lib/image-config-context.shared-runtime.js";
 
 //
 const configEnv = process.env

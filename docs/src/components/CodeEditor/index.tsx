@@ -2,7 +2,7 @@
 import React from "react";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import { themes } from "prism-react-renderer";
-import { Image, Source } from "@unpic/react";
+import { Image, Source } from "@jc-alvaradov/unpic";
 
 interface CodeEditorProps {
   code: string;

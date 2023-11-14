@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Image } from "@unpic/react/next";
+import { Image } from "@jc-alvaradov/unpic/next";
 import styles from "@/styles/Home.module.css";
 import bunny from "./bunny.jpg";
 

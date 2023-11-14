@@ -1,4 +1,4 @@
-import { Image, Source } from "@unpic/react";
+import { Image, Source } from "@jc-alvaradov/unpic";
 import { App } from "../App";
 import "./art-direction.css";
 export default function Index() {

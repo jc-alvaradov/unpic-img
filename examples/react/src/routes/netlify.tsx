@@ -1,4 +1,4 @@
-import { Image } from "@unpic/react";
+import { Image } from "@jc-alvaradov/unpic";
 import { App } from "../App";
 
 export default function Index() {

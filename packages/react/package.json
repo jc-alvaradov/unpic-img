@@ -1,5 +1,5 @@
 {
-  "name": "@unpic/react",
+  "name": "@jc-alvaradov/unpic",
   "version": "0.0.42",
   "license": "MIT",
   "repository": {
@@ -42,6 +42,7 @@
     "build": "tsup src/index.ts src/next.tsx --format cjs,esm --dts --clean",
     "prepublishOnly": "pnpm build",
     "publint": "publint",
+    "publish": "pnpm run publish",
     "test": "vitest run"
   },
   "devDependencies": {
@@ -52,7 +53,7 @@
     "@vitejs/plugin-react": "^4.0.1",
     "cssstyle": "^3.0.0",
     "jsdom": "^22.0.0",
-    "next": "^13.4.6",
+    "next": "^14.0.2",
     "publint": "^0.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
